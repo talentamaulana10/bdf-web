@@ -1,0 +1,77 @@
+.logo{
+    width: 300px;
+    height: 310px;
+}
+.judul{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: bold;
+    
+}
+.subjudul{
+    color: white;
+    margin-top: 100px;
+    font-size: 20px;
+    
+}
+.susah{
+    color: #33bdaa;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+.tombola{
+    background-color:#33bdaa;
+    width:180px;
+    height:40px;
+    font-size: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    border-width:0px;
+    margin-top:50px;
+}
+.tombolb{
+    margin-left: 5px;
+    background-color:#ffffff;
+    width:180px;
+    color: rgb(51, 33, 150);
+    cursor: pointer;
+    height:40px;
+    border-radius: 30px;
+    font-size: 15px;
+    border-width:0px;
+    margin-top:50px;
+}
+
+@media only screen and (max-width: 993px){
+    .subjudul{
+        font-size: 18px;
+    }
+    .judul{
+        font-size: 37px;
+    }
+}
+@media only screen and (max-width: 829px){
+    .subjudul{
+        font-size: 18px;
+    }
+    .judul{
+        font-size: 25px;
+    }
+    .logo{
+        width: 200px;
+        height: 200px;
+    }
+    
+}
+@media only screen and (max-width: 868px){
+    .tombola{
+        width: 100px;
+        font-size: 10px
+    }
+    .tombolb{
+        width: 100px;
+        font-size: 10px;
+    }
+}
