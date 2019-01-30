@@ -17,7 +17,7 @@ function OutlinedButtons(props) {
   const { classes } = props;
   return (
     <div>
-        <Button className="button" href="#outlined-buttons" className={classes.button}>
+        <Button className="button" href={props.id} className={classes.button}>
         {props.nama}
       </Button>
     </div>

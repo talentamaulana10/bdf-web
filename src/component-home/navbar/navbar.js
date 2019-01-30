@@ -13,11 +13,11 @@ render(){
     <div className="appbar">
       <AppBar position="static" color="default">
         <Toolbar className="toolbar">
-         <Button nama="about"/>
-         <Button nama="Home"/>
-         <Button nama="class"/>
-         <Button nama="contact"/>
-         <Button nama="developer"/>
+         <Button id="/about" nama="about"/>
+         <Button id="/" nama="Home"/>
+         <Button  id="/class" nama="class"/>
+         <Button id="/contact" nama="contact"/>
+         <Button id="/developer" nama="developer"/>
         </Toolbar>
       </AppBar>
     </div>

@@ -118,7 +118,7 @@ class PersistentDrawerLeft extends React.Component {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" color="inherit" noWrap>
-            <span className="brand">Binus Programing <span className="mini">Class</span> </span>
+            <span className="brand">Programing <span className="mini">Class</span> </span>
             </Typography>
           </Toolbar>
         </AppBar>
