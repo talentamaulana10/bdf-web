@@ -162,7 +162,7 @@ class PersistentDrawerLeft extends React.Component {
         >
           <div className={classes.drawerHeader} />
           <Typography paragraph>
-            
+          <Navbar/>
           </Typography>
         </main>
       </div>
