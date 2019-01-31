@@ -21,6 +21,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import Logo from '../../asset/tata.png'
 import Navbar from '../../component-home/navbar/navbar'
 import Jumbotron from '../../component-home/jumbotron/Jumbotron';
+import Carousel from '../developer/carousel/Carousel';
 import '../home/Home.css'
 const drawerWidth = 240;
 
@@ -163,6 +164,7 @@ class PersistentDrawerLeft extends React.Component {
           <div className={classes.drawerHeader} />
           <Typography paragraph>
           <Navbar/>
+          <Carousel />
           </Typography>
         </main>
       </div>
