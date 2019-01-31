@@ -21,6 +21,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import Navbar from '../../component-home/navbar/navbar'
 import Jumbotron from '../../component-home/jumbotron/Jumbotron';
 import './Home.css'
+import Landing from '../../component-class/landing/Landing'
 const drawerWidth = 240;
 
 const styles = theme => ({
@@ -163,6 +164,7 @@ class PersistentDrawerLeft extends React.Component {
           <Typography paragraph>
             <Navbar/>
             <Jumbotron/>
+            <Landing/>
           </Typography>
         </main>
       </div>
