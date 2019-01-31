@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import gambarReact from '../../../../asset/react.jpg'
+import gambarReact from '../../../../asset/pacul.png'
 import gambarJav from '../../../../asset/html.png'
 import gambarJS from '../../../../asset/js.png'
 import gambarAndroid from '../../../../asset/rn.png'
-import gambarCSS from '../../../../asset/css.png'
-import gambarMui from '../../../../asset/mui.png'
+import gambarCSS from '../../../../asset/png.png'
+import gambarMui from '../../../../asset/nu.png'
 import Menu from '../../../about/component/menu/Menu'
 
 const styles = theme => ({

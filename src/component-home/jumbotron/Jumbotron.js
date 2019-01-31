@@ -4,6 +4,8 @@ import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Logo from '../../asset/compu.png'
+import {Button} from 'reactstrap'
+import { Link } from 'react-router-dom'
 import './jumbotron.css'
 
 const styles = theme => ({
@@ -31,8 +33,8 @@ function FullWidthGrid(props) {
           <div className={classes.paper}>
           <h1 className="judul">Binus Development </h1><span  className="susah">Foundation</span>
           <h1 className="subjudul">#BerkaryaTanpaSuara</h1>
-          <button className="tombola">Programing Class</button>
-          <button className="tombolb">Developer</button>
+          <Button  tag={Link} color="info" style={{fontSize:16,borderRadius:30}} to="/class" className="tombola">Programing</Button>
+          <Button tag={Link} style={{backgroundColor:"white", color:"#48367d",borderRadius:30}} className="tombolb" to="/developer">Developer</Button>
           </div>
         </Grid>
         <Grid item xs={12} sm={6} >
