@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
+import {Link} from 'react-router-dom' 
 
 const styles = theme => ({
   root: {
@@ -14,6 +15,7 @@ const styles = theme => ({
     padding: theme.spacing.unit * 2,
     margin: 'auto',
     maxWidth: 500,
+    cursor:"pointer",
   },
   image: {
     width: 128,
@@ -31,28 +33,27 @@ function ComplexGrid(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <Paper className={classes.paper}>
+      <Paper className={classes.paper} >
         <Grid container spacing={16}>
           <Grid item>
-            <ButtonBase className={classes.image}>
-              <img className={classes.img} alt="complex" src={props.Profile} />
+            <ButtonBase className={classes.image} >
+              <img className={classes.img} alt="complex" src={props.Profile}  />
             </ButtonBase>
           </Grid>
           <Grid item xs={12} sm container>
             <Grid item xs container direction="column" spacing={16}>
               <Grid item xs>
-                <Typography gutterBottom variant="subtitle1">
-                  Standard license
-                </Typography>
-                <Typography gutterBottom>Full resolution 1920x1080 • JPEG</Typography>
-                <Typography color="textSecondary">ID: 1030114</Typography>
+                <Typography gutterBottom style={{fontWeight:"bold",}}>{props.title}</Typography>
+                <Typography color="textSecondary">{props.judul}</Typography>
               </Grid>
+             
               <Grid item>
-                <Typography style={{ cursor: 'pointer' }}>Remove</Typography>
+                <Typography style={{ color:"#757575", fontWeight:"bold" }}>{props.kategori}</Typography>
               </Grid>
+              
             </Grid>
             <Grid item>
-              <Typography variant="subtitle1">$19.00</Typography>
+              <Typography variant="subtitle1" style={{fontWeight:"bold",}}>{props.asumsi}</Typography>
             </Grid>
           </Grid>
         </Grid>
