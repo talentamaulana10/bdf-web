@@ -1,31 +1,16 @@
-import React from 'react';
+import React,{Component} from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import './Bb.css'
-const styles = theme => ({
-  button: {
-    margin: theme.spacing.unit,
-    color:"white"
-  },
-  input: {
-    display: 'none',
-  },
-});
 
-function OutlinedButtons(props) {
-  const { classes } = props;
+export default class Bu extends Component{
+  render(){
   return (
     <div>
-        <Button className="button" href={props.id} className={classes.button}>
-        {props.nama}
+        <Button style={{color:"white"}} href={this.props.id}>
+        {this.props.nama}
       </Button>
     </div>
   );
 }
-
-OutlinedButtons.propTypes = {
-  classes: PropTypes.object.isRequired,
-};
-
-export default withStyles(styles)(OutlinedButtons);
+}

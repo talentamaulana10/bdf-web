@@ -22,7 +22,11 @@ import Logo from '../../asset/tata.png'
 import Navbar from '../../component-home/navbar/navbar'
 import Jumbotron from '../../component-home/jumbotron/Jumbotron';
 import './Home.css'
+import Everyone from '../../landing/everyone/Everyone'
+
+
 const drawerWidth = 240;
+
 
 const styles = theme => ({
   root: {
@@ -164,6 +168,7 @@ class PersistentDrawerLeft extends React.Component {
           <Typography paragraph>
             <Navbar/>
             <Jumbotron/>
+            <Everyone/>
           </Typography>
         </main>
       </div>
