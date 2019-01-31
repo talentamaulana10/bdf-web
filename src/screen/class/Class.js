@@ -20,8 +20,8 @@ import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import Logo from '../../asset/tata.png'
 import Navbar from '../../component-home/navbar/navbar'
-import Jumbotron from '../../component-home/jumbotron/Jumbotron';
 import '../home/Home.css'
+import Menu from '../../component-class/menu/Menu'
 const drawerWidth = 240;
 
 const styles = theme => ({
@@ -163,6 +163,7 @@ class PersistentDrawerLeft extends React.Component {
           <div className={classes.drawerHeader} />
           <Typography paragraph>
           <Navbar/>
+          <Menu/>
           </Typography>
         </main>
       </div>

@@ -5,6 +5,7 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Logo from '../../asset/compu.png'
 import './jumbotron.css'
+import {Button} from 'reactstrap'
 
 const styles = theme => ({
   root: {
@@ -29,10 +30,10 @@ function FullWidthGrid(props) {
       <Grid container spacing={24} style={{justifyContent:"center"}}>
         <Grid item xs={12} sm={6} >
           <div className={classes.paper}>
-          <h1 className="judul">Binus Development </h1><span  className="susah">Foundation</span>
+          <h1 className="judul">Binus Development</h1><span  className="susah">Foundation</span>
           <h1 className="subjudul">#BerkaryaTanpaSuara</h1>
-          <button className="tombola">Programing Class</button>
-          <button className="tombolb">Developer</button>
+          <Button style={{borderRadius:"30px"}} href="/class" color="info" className="tombola">Programing</Button>
+          <Button href="/developer" style={{backgroundColor:"white",color:"#17a2b8",borderRadius:"30px"}} className="tombolb">Developer</Button>
           </div>
         </Grid>
         <Grid item xs={12} sm={6} >
