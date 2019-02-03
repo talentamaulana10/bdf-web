@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import Logo from '../../asset/compu.png'
-import './jumbu.css'
+import Logo from '../../asset/proyek.png'
+import './jumbo.css'
 import {Button} from 'reactstrap'
 
 const styles = theme => ({
@@ -16,7 +16,7 @@ const styles = theme => ({
     padding: theme.spacing.unit * 2,
     textAlign: 'center',
     color: theme.palette.text.secondary,
-    height:430,
+    height:400,
     backgroundColor:"#48367d",
     justifyContent:"center"
   },
@@ -30,15 +30,15 @@ function FullWidthGrid(props) {
       <Grid container spacing={24} style={{justifyContent:"center"}}>
         <Grid item xs={12} sm={6} >
           <div className={classes.paper}>
-          <h1 className="judul">{props.judul}</h1><span  className="susah">{props.subjudul}</span>
-          <h1 className="subjudul">{props.quotes}</h1>
-          <Button style={{borderRadius:"30px"}} href="/class" color="info" className="tombola">Programing</Button>
-          <Button href="/developer" style={{backgroundColor:"white",color:"#17a2b8",borderRadius:"30px"}} className="tombolb">Developer</Button>
+          <h1 className="judul">Binus Programing</h1><span  className="susah">Class</span>
+          <h1 className="subjudul">"Di BideF Terdapat Development Class"<br/>
+          yang berfokus pada pemrograman website dan aplikasi mobile
+          </h1>
           </div>
         </Grid>
         <Grid item xs={12} sm={6} >
           <div className={classes.paper}>
-          <img className="logo" src={Logo}/>
+          <img className="logu" src={Logo}/>
           </div>
         </Grid>
       </Grid>

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import Gambar from '../../asset/one.png'
+import Gambar from '../../asset/youtube.png'
 import {Button } from 'reactstrap'
 
 const styles = theme => ({
@@ -33,9 +33,9 @@ function CenteredGrid(props) {
         </Grid>
         <Grid item xs={12} sm={6}>
           <div className={classes.paper} style={{backgroundColor:"#48367d",}}>
-          <h1 style={{marginTop:"100px"}} >"Everyone Can <span style={{color:"#33bdaa"}}>Code</span>"</h1>
-          <p style={{fontFamily:'Helvetica',marginTop:30,color:"white" ,fontWeight:400,fontSize:"1.25714286em"}} >we believe coding is an essential skill. Learning to code teaches you how to solve problems and work together in creative ways. And it helps you build apps that bring your ideas to life. </p>
-          <Button style={{marginTop:"30px"}} color="info" href="/class">Go To Class</Button>
+          <h1 style={{marginTop:"100px"}} >You<span style={{color:"#33bdaa"}}>tube</span></h1>
+          <p style={{fontFamily:'Helvetica',marginTop:30,color:"white" ,fontWeight:400,fontSize:"1.25714286em"}} >Suscribe and Like:D</p>
+          <Button style={{marginTop:"30px"}} color="info" href="/class">Go There</Button>
           </div>
         </Grid>
       </Grid>

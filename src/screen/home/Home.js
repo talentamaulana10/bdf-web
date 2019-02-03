@@ -17,11 +17,12 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
+import MailIcon from '@material-ui/icons/Home';
 import Navbar from '../../component-home/navbar/navbar'
 import Jumbotron from '../../component-home/jumbotron/Jumbotron';
 import './Home.css'
 import Landing from '../../component-class/landing/Landing'
+import Footer from '../../component-home/footer/Footer';
 const drawerWidth = 240;
 
 const styles = theme => ({
@@ -146,14 +147,7 @@ class PersistentDrawerLeft extends React.Component {
             ))}
           </List>
           <Divider />
-          <List>
-            {['All mail', 'Trash', 'Spam'].map((text, index) => (
-              <ListItem button key={text}>
-                <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItem>
-            ))}
-          </List>
+          
         </Drawer>
         <main
           className={classNames(classes.content, {
@@ -163,8 +157,9 @@ class PersistentDrawerLeft extends React.Component {
           <div className={classes.drawerHeader} />
           <Typography paragraph>
             <Navbar/>
-            <Jumbotron/>
+            <Jumbotron judul="Binus Developement" subjudul="Foundation" quotes="#BerkaryaTanpaSuara" />
             <Landing/>
+            <Footer/>
           </Typography>
         </main>
       </div>
