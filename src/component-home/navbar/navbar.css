@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Homenaje');
 .toolbar{
     justify-content: center;
     background-color: #48367d;
+}
+.button{
+    font-weight: bold;
+    font-family: 'Homenaje', sans-serif;
 }

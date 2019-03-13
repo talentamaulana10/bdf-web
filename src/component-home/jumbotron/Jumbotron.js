@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import Logo from '../../asset/compu.png'
+import Logo from '../../asset/box.svg'
 import './jumbu.css'
 import {Button} from 'reactstrap'
 
@@ -32,8 +32,8 @@ function FullWidthGrid(props) {
           <div className={classes.paper}>
           <h1 className="judul">{props.judul}</h1><span  className="susah">{props.subjudul}</span>
           <h1 className="subjudul">{props.quotes}</h1>
-          <Button style={{borderRadius:"30px"}} href="/class" color="info" className="tombola">Programing</Button>
-          <Button href="/developer" style={{backgroundColor:"white",color:"#17a2b8",borderRadius:"30px"}} className="tombolb">Developer</Button>
+          <Button style={{borderRadius:"30px"}} href="/class" color="info" className="tombola">Pesan sekarang</Button>
+          <Button href="/developer" style={{backgroundColor:"white",color:"#17a2b8",borderRadius:"30px"}} className="tombolb">Contact Us</Button>
           </div>
         </Grid>
         <Grid item xs={12} sm={6} >

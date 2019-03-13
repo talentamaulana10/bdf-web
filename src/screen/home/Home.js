@@ -119,7 +119,7 @@ class PersistentDrawerLeft extends React.Component {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" color="inherit" noWrap >
-            <span className="brand">Bi<span className="mini">DeF</span> </span>
+            <span className="brand">Handy<span className="mini">Craft</span> </span>
             </Typography>
           </Toolbar>
         </AppBar>
@@ -157,9 +157,8 @@ class PersistentDrawerLeft extends React.Component {
           <div className={classes.drawerHeader} />
           <Typography paragraph>
             <Navbar/>
-            <Jumbotron judul="Binus Developement" subjudul="Foundation" quotes="#BerkaryaTanpaSuara" />
-            <Landing/>
-            <Footer/>
+            <Jumbotron judul="HandyCraft" subjudul="" quotes="'create the best photo album for the best memories'" />
+            
           </Typography>
         </main>
       </div>

@@ -1,18 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 .logo{
-    width: 310px;
+    width: 380px;
     height: 310px;
 }
 .judul{
     color: rgb(255, 255, 255);
-    font-size: 45px;
+    font-size: 55px;
     font-weight: bold;
-    
+    font-family: 'Josefin Sans', sans-serif;
 }
 .subjudul{
     color: white;
     margin-top: 100px;
     font-size: 20px;
-    
+    font-family: 'Josefin Sans', sans-serif;
 }
 .susah{
     color: #33bdaa;
